@@ -1,0 +1,67 @@
+.lu
+{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #333;
+  font-size: 2.0rem;
+  line-height: 1.3em;
+  margin:0;
+
+}
+h1
+{
+  line-height: 1.3em;
+  font-size: 2rem;
+}
+p
+{
+  margin-bottom: 1.6em;
+}
+.container
+{
+  width: 90;
+  min-width: 1000px
+  margin: 0 auto;
+  align:center;
+}
+.header
+{
+  background-color::rgba(0, 0, 255, 0.1);
+  color: ##E76741;
+  padding: 1rem 0;
+}
+.header a
+{
+  color: #E76741;
+  text-decoration: none;
+}
+.logo-nav-container
+{
+  display: flex;
+  align-items: center;
+}
+.navigation ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li
+{
+  display: inline-block;
+}
+.navigation ul li a
+{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+.navigation ul li a:hover
+{
+  background: #ccc;
+}
+.logo
+{
+  letter-spacing: 10px;
+  font-size: 5.8em;
+}
